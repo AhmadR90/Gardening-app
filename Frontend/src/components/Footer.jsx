@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
     <hr />
-      <div>
+      <div className="mt-28">
         <div className="flex justify-center gap-4 space-x-96  p-5 text-center h-20  ">
           <div className="h-20 w-28 flex p-2 gap-3">
             <img
@@ -19,13 +19,7 @@ const Footer = () => {
         </div>
         <div className="flex space-x-6 justify-evenly mt-6">
           <div className=" h-60 w-96 bg-slate-100 rounded-xl ">
-            <input
-              className=" flex mt-14 ml-16 justify-items-center "
-              type="text"
-              placeholder="Enter your Name"
-            />
-            <br />
-            <button>Submit</button>
+           
           </div>
         
           <div className="h-60 w-96 bg-slate-100  rounded-xl"></div>

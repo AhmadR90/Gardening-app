@@ -1,6 +1,8 @@
 import React from "react";
 import Categories from "../components/Categories";
 
+import ClientReviews from "../components/Reviews";
+
 
 const Home = () => {
   return (
@@ -28,6 +30,8 @@ const Home = () => {
         </div>
       </div>
       <Categories />
+      {/* <Tools/> */}
+      <ClientReviews/>
       
     </>
   );

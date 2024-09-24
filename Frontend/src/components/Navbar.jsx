@@ -11,7 +11,7 @@ const Navbar = () => {
   }
   return (
     <>
-      <div className="flex justify-around gap-4 space-x-96 bg-green-400 text-black p-5  h-20 ">
+      <div className="flex justify-around gap-4 space-x-96 bg-green-400 text-black p-5  h-20 sticky top-0 ">
         <div className="h-12 w-16 gap-2 flex ">
           <img
             className="rounded-lg"
